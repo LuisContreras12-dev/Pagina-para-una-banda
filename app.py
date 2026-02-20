@@ -12,8 +12,11 @@ DATA_DIR = os.path.join(os.path.dirname(__file__), 'data')
 
 def cargar_json(nombre_archivo):
     ruta = os.path.join(DATA_DIR, nombre_archivo)
-    with open(ruta, encoding='utf-8') as f:
-        return json.load(f)
+    try:
+        with open(ruta, encoding='utf-8') as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return []
 
 
 @app.route('/')
