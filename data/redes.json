@@ -1,0 +1,27 @@
+[
+  {
+    "nombre": "Facebook",
+    "url": "https://www.facebook.com/coldplay",
+    "icono": "bi-facebook"
+  },
+  {
+    "nombre": "Instagram",
+    "url": "https://www.instagram.com/coldplay",
+    "icono": "bi-instagram"
+  },
+  {
+    "nombre": "Twitter / X",
+    "url": "https://twitter.com/coldplay",
+    "icono": "bi-twitter-x"
+  },
+  {
+    "nombre": "YouTube",
+    "url": "https://www.youtube.com/coldplay",
+    "icono": "bi-youtube"
+  },
+  {
+    "nombre": "Spotify",
+    "url": "https://open.spotify.com/artist/4gzpq5DPGxSnKTe4SA8HAU",
+    "icono": "bi-spotify"
+  }
+]

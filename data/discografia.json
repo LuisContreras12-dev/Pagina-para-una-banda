@@ -1,0 +1,38 @@
+[
+  {
+    "titulo": "Parachutes",
+    "anio": 2000,
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/f/fd/Coldplay_-_Parachutes.png",
+    "descripcion": "El álbum debut de Coldplay, con éxitos como 'Yellow' y 'Shiver'. Un disco que definió el sonido melancólico y emotivo de la banda."
+  },
+  {
+    "titulo": "A Rush of Blood to the Head",
+    "anio": 2002,
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/b/b2/Coldplay_-_A_Rush_of_Blood_to_the_Head.png",
+    "descripcion": "Segundo álbum con temas icónicos como 'The Scientist', 'Clocks' e 'In My Place'. Ganador del Grammy al Mejor Álbum de Música Alternativa."
+  },
+  {
+    "titulo": "X&Y",
+    "anio": 2005,
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/5/5a/Coldplay_-_X%26Y.png",
+    "descripcion": "Tercer álbum que incluye 'Fix You' y 'Speed of Sound'. Un disco con sonidos más electrónicos y experimentales."
+  },
+  {
+    "titulo": "Viva la Vida or Death and All His Friends",
+    "anio": 2008,
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/d/d3/Coldplay_-_Viva_la_Vida.png",
+    "descripcion": "Producido por Brian Eno, este álbum ganó el Grammy al Mejor Álbum de Rock. Incluye la famosa 'Viva la Vida'."
+  },
+  {
+    "titulo": "Mylo Xyloto",
+    "anio": 2011,
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/4/4a/Coldplay_-_Mylo_Xyloto.png",
+    "descripcion": "Álbum conceptual con influencias de pop y electrónica. Incluye éxitos como 'Paradise' y 'Every Teardrop Is a Waterfall'."
+  },
+  {
+    "titulo": "A Head Full of Dreams",
+    "anio": 2015,
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/3/3f/Coldplay_-_A_Head_Full_of_Dreams.png",
+    "descripcion": "Un álbum colorido y optimista que incluye 'Hymn for the Weekend' y 'Adventure of a Lifetime'."
+  }
+]

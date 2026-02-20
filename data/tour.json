@@ -1,0 +1,38 @@
+[
+  {
+    "fecha": "2026-03-15",
+    "ciudad": "Ciudad de México, México",
+    "lugar": "Foro Sol",
+    "hora": "20:00"
+  },
+  {
+    "fecha": "2026-03-22",
+    "ciudad": "Guadalajara, México",
+    "lugar": "Estadio Akron",
+    "hora": "20:30"
+  },
+  {
+    "fecha": "2026-04-05",
+    "ciudad": "Monterrey, México",
+    "lugar": "Estadio BBVA",
+    "hora": "21:00"
+  },
+  {
+    "fecha": "2026-04-18",
+    "ciudad": "Buenos Aires, Argentina",
+    "lugar": "Estadio River Plate",
+    "hora": "20:00"
+  },
+  {
+    "fecha": "2026-05-02",
+    "ciudad": "Santiago, Chile",
+    "lugar": "Estadio Nacional",
+    "hora": "20:30"
+  },
+  {
+    "fecha": "2026-05-16",
+    "ciudad": "Bogotá, Colombia",
+    "lugar": "Estadio El Campín",
+    "hora": "19:30"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "titulo": "Coldplay en Wembley 2022",
+    "tipo": "foto",
+    "url": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600",
+    "descripcion": "La banda en uno de sus conciertos más memorables."
+  },
+  {
+    "titulo": "Chris Martin en el escenario",
+    "tipo": "foto",
+    "url": "https://images.unsplash.com/photo-1501386761578-0a55d30e0045?w=600",
+    "descripcion": "El vocalista principal iluminando el escenario."
+  },
+  {
+    "titulo": "Concierto con luces LED",
+    "tipo": "foto",
+    "url": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=600",
+    "descripcion": "Espectáculo de luces durante el tour Music of the Spheres."
+  },
+  {
+    "titulo": "La banda en el estudio",
+    "tipo": "foto",
+    "url": "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=600",
+    "descripcion": "Momentos creativos durante la grabación de un nuevo álbum."
+  },
+  {
+    "titulo": "Yellow - Video Oficial",
+    "tipo": "video",
+    "url": "https://www.youtube.com/embed/yKNxeF4KMsY",
+    "descripcion": "El video musical que lanzó a Coldplay a la fama mundial."
+  },
+  {
+    "titulo": "Fix You - Video Oficial",
+    "tipo": "video",
+    "url": "https://www.youtube.com/embed/k4V3Mo61fJM",
+    "descripcion": "Uno de los videos más emotivos y emblemáticos de la banda."
+  },
+  {
+    "titulo": "Viva la Vida - Video Oficial",
+    "tipo": "video",
+    "url": "https://www.youtube.com/embed/dvgZkm1xWPE",
+    "descripcion": "El video de su canción más reconocida a nivel global."
+  }
+]

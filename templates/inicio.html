@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% block title %}Inicio{% endblock %}
+
+{% block content %}
+<div class="text-center py-5">
+    <h1 class="display-3 fw-bold">Coldplay</h1>
+    <p class="lead text-muted">Una de las bandas más influyentes del rock alternativo y pop mundial</p>
+    <hr class="my-4">
+    <p class="fs-5">
+        Coldplay es una banda británica formada en Londres en 1996. Integrada por
+        Chris Martin (voz, piano), Jonny Buckland (guitarra), Guy Berryman (bajo)
+        y Will Champion (batería), la banda ha vendido más de 100 millones de álbumes
+        en todo el mundo.
+    </p>
+</div>
+
+<div class="row g-4 mb-4">
+    <div class="col-md-4">
+        <div class="card h-100 text-center shadow-sm">
+            <div class="card-body">
+                <i class="bi bi-calendar-event fs-1 text-primary"></i>
+                <h5 class="card-title mt-3">Tour</h5>
+                <p class="card-text">Consulta las próximas fechas de conciertos.</p>
+                <a href="{{ url_for('tour') }}" class="btn btn-outline-primary">Ver fechas</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card h-100 text-center shadow-sm">
+            <div class="card-body">
+                <i class="bi bi-disc fs-1 text-primary"></i>
+                <h5 class="card-title mt-3">Discografía</h5>
+                <p class="card-text">Explora todos los álbumes de la banda.</p>
+                <a href="{{ url_for('discografia') }}" class="btn btn-outline-primary">Ver álbumes</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card h-100 text-center shadow-sm">
+            <div class="card-body">
+                <i class="bi bi-camera-reels fs-1 text-primary"></i>
+                <h5 class="card-title mt-3">Fotos / Videos</h5>
+                <p class="card-text">Galería de fotos y videos oficiales.</p>
+                <a href="{{ url_for('media') }}" class="btn btn-outline-primary">Ver galería</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
