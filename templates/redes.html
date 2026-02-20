@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block title %}Redes Sociales{% endblock %}
+
+{% block content %}
+<div class="container py-5 mt-5">
+  <div class="pt-3">
+    <h1 class="fw-bold mb-1">
+      <i class="bi bi-share text-danger me-3"></i>Redes Sociales
+    </h1>
+    <p class="text-muted mb-5">Síguenos y mantente al día con {{ band.name }}</p>
+
+    <div class="row g-4 justify-content-center">
+      {% for sm in social_media %}
+      <div class="col-sm-6 col-md-4">
+        <a href="{{ sm.url }}" target="_blank" rel="noopener noreferrer" class="text-decoration-none">
+          <div class="card border-0 shadow-sm h-100 social-card text-center p-4">
+            <div class="mb-3">
+              <i class="bi {{ sm.icon }} social-icon"></i>
+            </div>
+            <h5 class="fw-bold mb-1">{{ sm.platform }}</h5>
+            <p class="text-muted small mb-1">{{ sm.handle }}</p>
+            <span class="badge bg-danger rounded-pill">{{ sm.followers }}</span>
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+
+    <div class="text-center mt-5">
+      <p class="text-muted">
+        <i class="bi bi-envelope me-2"></i>
+        ¿Quieres contactarnos?
+        <a href="mailto:contacto@midnightechoes.com" class="text-danger fw-semibold ms-1">
+          contacto@midnightechoes.com
+        </a>
+      </p>
+    </div>
+  </div>
+</div>
+{% endblock %}

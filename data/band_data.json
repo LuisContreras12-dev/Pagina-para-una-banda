@@ -1,0 +1,224 @@
+{
+  "band": {
+    "name": "The Midnight Echoes",
+    "genre": "Indie Rock / Alternative",
+    "founded": 2018,
+    "hometown": "Ciudad de México, México",
+    "description": "The Midnight Echoes es una banda de rock alternativo formada en 2018 en la Ciudad de México. Con un sonido que fusiona el indie rock con toques de electrónica y psicodelia, la banda ha conquistado escenarios en toda Latinoamérica.",
+    "members": [
+      {"name": "Alejandro Reyes", "role": "Voz / Guitarra"},
+      {"name": "Sofía Morales", "role": "Bajo / Coros"},
+      {"name": "Diego Hernández", "role": "Batería"},
+      {"name": "Valentina Cruz", "role": "Teclados / Sintetizadores"}
+    ]
+  },
+  "tour": [
+    {
+      "id": 1,
+      "date": "2026-03-15",
+      "city": "Ciudad de México",
+      "venue": "Foro Sol",
+      "country": "México",
+      "tickets_url": "#",
+      "sold_out": false
+    },
+    {
+      "id": 2,
+      "date": "2026-03-22",
+      "city": "Guadalajara",
+      "venue": "Arena VFG",
+      "country": "México",
+      "tickets_url": "#",
+      "sold_out": false
+    },
+    {
+      "id": 3,
+      "date": "2026-04-05",
+      "city": "Monterrey",
+      "venue": "Arena Monterrey",
+      "country": "México",
+      "tickets_url": "#",
+      "sold_out": true
+    },
+    {
+      "id": 4,
+      "date": "2026-04-18",
+      "city": "Buenos Aires",
+      "venue": "Estadio Luna Park",
+      "country": "Argentina",
+      "tickets_url": "#",
+      "sold_out": false
+    },
+    {
+      "id": 5,
+      "date": "2026-05-02",
+      "city": "Bogotá",
+      "venue": "Movistar Arena",
+      "country": "Colombia",
+      "tickets_url": "#",
+      "sold_out": false
+    },
+    {
+      "id": 6,
+      "date": "2026-05-20",
+      "city": "Santiago",
+      "venue": "Movistar Arena",
+      "country": "Chile",
+      "tickets_url": "#",
+      "sold_out": false
+    },
+    {
+      "id": 7,
+      "date": "2026-06-10",
+      "city": "Lima",
+      "venue": "Estadio Nacional",
+      "country": "Perú",
+      "tickets_url": "#",
+      "sold_out": false
+    }
+  ],
+  "discography": [
+    {
+      "id": 1,
+      "title": "Ecos en la Oscuridad",
+      "year": 2019,
+      "type": "EP",
+      "cover_placeholder": "Primer EP",
+      "description": "El debut de la banda, con cinco canciones que mezclan el rock alternativo con atmósferas nocturnas.",
+      "tracks": ["Noche Infinita", "Sombras", "El Último Tren", "Luz de Neón", "Despedida"]
+    },
+    {
+      "id": 2,
+      "title": "Resonancia",
+      "year": 2020,
+      "type": "Álbum",
+      "cover_placeholder": "Primer Álbum",
+      "description": "El primer álbum de larga duración de la banda. Once canciones que exploran temas de identidad, amor y pérdida.",
+      "tracks": ["Resonancia", "Ciudad de Cristal", "Marea Alta", "Tú y Yo", "Vacío", "Paralelo", "Sin Retorno", "Flores de Asfalto", "El Río", "Amanecer", "Eternidad"]
+    },
+    {
+      "id": 3,
+      "title": "Deriva",
+      "year": 2022,
+      "type": "Álbum",
+      "cover_placeholder": "Segundo Álbum",
+      "description": "Segundo álbum de estudio, con una producción más madura y una exploración más profunda de la electrónica.",
+      "tracks": ["Deriva", "Universo Paralelo", "Sin Gravedad", "Cosmos", "Polvo de Estrellas", "Horizonte", "Marea Negra", "Vórtice", "Dimensión", "El Viajero", "Regreso", "Última Órbita"]
+    },
+    {
+      "id": 4,
+      "title": "Fragmentos",
+      "year": 2024,
+      "type": "Single",
+      "cover_placeholder": "Single 2024",
+      "description": "El primer sencillo del tercer álbum de estudio, una balada intensa con arreglos orquestales.",
+      "tracks": ["Fragmentos"]
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "title": "Resonancia (Video Oficial)",
+      "youtube_id": "dQw4w9WgXcQ",
+      "year": 2020,
+      "description": "Video oficial del sencillo principal del álbum Resonancia."
+    },
+    {
+      "id": 2,
+      "title": "Ciudad de Cristal (Video Oficial)",
+      "youtube_id": "dQw4w9WgXcQ",
+      "year": 2020,
+      "description": "Video oficial filmado en las calles de la Ciudad de México."
+    },
+    {
+      "id": 3,
+      "title": "Deriva (Lyric Video)",
+      "youtube_id": "dQw4w9WgXcQ",
+      "year": 2022,
+      "description": "Video lyric animado del sencillo principal del álbum Deriva."
+    },
+    {
+      "id": 4,
+      "title": "The Midnight Echoes - Live at Foro Sol 2023",
+      "youtube_id": "dQw4w9WgXcQ",
+      "year": 2023,
+      "description": "Presentación en vivo completa en el Foro Sol, Ciudad de México."
+    }
+  ],
+  "photos": [
+    {
+      "id": 1,
+      "title": "Sesión de fotos 2024",
+      "description": "Sesión fotográfica oficial para el lanzamiento del sencillo Fragmentos."
+    },
+    {
+      "id": 2,
+      "title": "En vivo - Foro Sol 2023",
+      "description": "Imágenes del espectacular show en el Foro Sol."
+    },
+    {
+      "id": 3,
+      "title": "Grabación de Deriva",
+      "description": "Detrás de cámaras de la grabación del segundo álbum."
+    },
+    {
+      "id": 4,
+      "title": "Tour Latinoamérica 2022",
+      "description": "Momentos del tour por toda Latinoamérica."
+    },
+    {
+      "id": 5,
+      "title": "Banda en el estudio",
+      "description": "La banda trabajando en nuevas canciones para el próximo álbum."
+    },
+    {
+      "id": 6,
+      "title": "Premio a Mejor Banda 2023",
+      "description": "La banda recibiendo el premio a Mejor Banda de Rock en los Premios MTV."
+    }
+  ],
+  "social_media": [
+    {
+      "platform": "Instagram",
+      "url": "https://instagram.com",
+      "icon": "bi-instagram",
+      "handle": "@midnightechoes",
+      "followers": "245K seguidores"
+    },
+    {
+      "platform": "Facebook",
+      "url": "https://facebook.com",
+      "icon": "bi-facebook",
+      "handle": "TheMidnightEchoes",
+      "followers": "180K seguidores"
+    },
+    {
+      "platform": "Twitter / X",
+      "url": "https://twitter.com",
+      "icon": "bi-twitter-x",
+      "handle": "@midnightechoes",
+      "followers": "95K seguidores"
+    },
+    {
+      "platform": "YouTube",
+      "url": "https://youtube.com",
+      "icon": "bi-youtube",
+      "handle": "The Midnight Echoes",
+      "followers": "320K suscriptores"
+    },
+    {
+      "platform": "Spotify",
+      "url": "https://spotify.com",
+      "icon": "bi-spotify",
+      "handle": "The Midnight Echoes",
+      "followers": "1.2M oyentes mensuales"
+    },
+    {
+      "platform": "TikTok",
+      "url": "https://tiktok.com",
+      "icon": "bi-tiktok",
+      "handle": "@midnightechoes",
+      "followers": "510K seguidores"
+    }
+  ]
+}
