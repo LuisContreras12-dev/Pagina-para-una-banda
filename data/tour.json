@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "fecha": "15 de Marzo, 2026",
+    "ciudad": "Ciudad de México, México",
+    "venue": "Foro Sol",
+    "disponible": true
+  },
+  {
+    "id": 2,
+    "fecha": "22 de Marzo, 2026",
+    "ciudad": "Guadalajara, México",
+    "venue": "Estadio Akron",
+    "disponible": true
+  },
+  {
+    "id": 3,
+    "fecha": "5 de Abril, 2026",
+    "ciudad": "Bogotá, Colombia",
+    "venue": "Estadio El Campín",
+    "disponible": true
+  },
+  {
+    "id": 4,
+    "fecha": "12 de Abril, 2026",
+    "ciudad": "Buenos Aires, Argentina",
+    "venue": "Estadio River Plate",
+    "disponible": false
+  },
+  {
+    "id": 5,
+    "fecha": "20 de Abril, 2026",
+    "ciudad": "Santiago, Chile",
+    "venue": "Estadio Nacional",
+    "disponible": true
+  },
+  {
+    "id": 6,
+    "fecha": "3 de Mayo, 2026",
+    "ciudad": "São Paulo, Brasil",
+    "venue": "Allianz Parque",
+    "disponible": true
+  },
+  {
+    "id": 7,
+    "fecha": "15 de Mayo, 2026",
+    "ciudad": "Lima, Perú",
+    "venue": "Estadio Nacional",
+    "disponible": true
+  },
+  {
+    "id": 8,
+    "fecha": "28 de Mayo, 2026",
+    "ciudad": "Monterrey, México",
+    "venue": "Estadio BBVA",
+    "disponible": false
+  }
+]

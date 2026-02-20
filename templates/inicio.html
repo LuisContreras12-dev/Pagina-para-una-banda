@@ -1,0 +1,160 @@
+{% extends 'base.html' %}
+{% block title %}Inicio{% endblock %}
+
+{% block content %}
+<!-- ═══ Hero Section ═══ -->
+<section class="hero-section text-white text-center d-flex align-items-center justify-content-center"
+         style="background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.75)),
+                url('https://upload.wikimedia.org/wikipedia/commons/a/a4/Foo_Fighters_-_Rock_am_Ring_2018-5765.jpg')
+                center/cover no-repeat; min-height: 100vh;">
+    <div class="container">
+        <h1 class="display-1 fw-bold hero-title mb-3">FOO FIGHTERS</h1>
+        <p class="lead fs-3 mb-4">Rock. Pasión. Legado.</p>
+        <p class="mx-auto mb-5" style="max-width: 700px; font-size: 1.15rem;">
+            Desde 1994, Foo Fighters ha definido el rock moderno con energía inigualable,
+            himnos generacionales y presentaciones en vivo que hacen historia.
+        </p>
+        <div class="d-flex gap-3 justify-content-center flex-wrap">
+            <a href="{{ url_for('tour') }}" class="btn btn-warning btn-lg px-4 fw-bold">
+                <i class="bi bi-ticket-perforated-fill"></i> Ver Tour 2026
+            </a>
+            <a href="{{ url_for('discografia') }}" class="btn btn-outline-light btn-lg px-4">
+                <i class="bi bi-music-note-list"></i> Discografía
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- ═══ Sobre la Banda ═══ -->
+<section class="py-5">
+    <div class="container">
+        <div class="row align-items-center g-5">
+            <div class="col-lg-6">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Foo_Fighters_-_Rock_am_Ring_2018-5710.jpg"
+                     class="img-fluid rounded shadow" alt="Foo Fighters en concierto">
+            </div>
+            <div class="col-lg-6">
+                <h2 class="display-5 fw-bold section-title mb-4">Sobre la Banda</h2>
+                <p class="text-muted fs-5">
+                    Foo Fighters es una banda de rock estadounidense formada en Seattle, Washington,
+                    en 1994 por <strong>Dave Grohl</strong>, exbaterista de Nirvana. Lo que comenzó como un
+                    proyecto en solitario se transformó rápidamente en una de las bandas de rock
+                    más importantes del mundo.
+                </p>
+                <p class="text-muted">
+                    Con más de <strong>30 millones de álbumes vendidos</strong> mundialmente y
+                    <strong>15 premios Grammy</strong>, Foo Fighters ha dejado una marca imborrable
+                    en la historia de la música rock. Su energía en vivo es legendaria, con
+                    presentaciones que pueden superar las 3 horas.
+                </p>
+                <div class="row mt-4 text-center">
+                    <div class="col-4">
+                        <h3 class="fw-bold text-warning display-6">15</h3>
+                        <p class="text-muted">Premios Grammy</p>
+                    </div>
+                    <div class="col-4">
+                        <h3 class="fw-bold text-warning display-6">10</h3>
+                        <p class="text-muted">Álbumes de Estudio</p>
+                    </div>
+                    <div class="col-4">
+                        <h3 class="fw-bold text-warning display-6">30+</h3>
+                        <p class="text-muted">Años de Rock</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ═══ Miembros ═══ -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="display-5 fw-bold section-title text-center mb-5">Miembros de la Banda</h2>
+        <div class="row g-4 justify-content-center">
+            <div class="col-md-4 col-lg-3">
+                <div class="card text-center border-0 shadow-sm h-100 member-card">
+                    <div class="card-body py-4">
+                        <div class="rounded-circle bg-warning d-inline-flex align-items-center justify-content-center mb-3"
+                             style="width: 80px; height: 80px;">
+                            <i class="bi bi-mic-fill fs-2 text-dark"></i>
+                        </div>
+                        <h5 class="card-title fw-bold">Dave Grohl</h5>
+                        <p class="text-muted">Voz / Guitarra</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-3">
+                <div class="card text-center border-0 shadow-sm h-100 member-card">
+                    <div class="card-body py-4">
+                        <div class="rounded-circle bg-warning d-inline-flex align-items-center justify-content-center mb-3"
+                             style="width: 80px; height: 80px;">
+                            <i class="bi bi-music-note fs-2 text-dark"></i>
+                        </div>
+                        <h5 class="card-title fw-bold">Pat Smear</h5>
+                        <p class="text-muted">Guitarra</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-3">
+                <div class="card text-center border-0 shadow-sm h-100 member-card">
+                    <div class="card-body py-4">
+                        <div class="rounded-circle bg-warning d-inline-flex align-items-center justify-content-center mb-3"
+                             style="width: 80px; height: 80px;">
+                            <i class="bi bi-music-note-beamed fs-2 text-dark"></i>
+                        </div>
+                        <h5 class="card-title fw-bold">Chris Shiflett</h5>
+                        <p class="text-muted">Guitarra Principal</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-3">
+                <div class="card text-center border-0 shadow-sm h-100 member-card">
+                    <div class="card-body py-4">
+                        <div class="rounded-circle bg-warning d-inline-flex align-items-center justify-content-center mb-3"
+                             style="width: 80px; height: 80px;">
+                            <i class="bi bi-vinyl fs-2 text-dark"></i>
+                        </div>
+                        <h5 class="card-title fw-bold">Nate Mendel</h5>
+                        <p class="text-muted">Bajo</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-3">
+                <div class="card text-center border-0 shadow-sm h-100 member-card">
+                    <div class="card-body py-4">
+                        <div class="rounded-circle bg-warning d-inline-flex align-items-center justify-content-center mb-3"
+                             style="width: 80px; height: 80px;">
+                            <i class="bi bi-speaker fs-2 text-dark"></i>
+                        </div>
+                        <h5 class="card-title fw-bold">Rami Jaffee</h5>
+                        <p class="text-muted">Teclados</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-3">
+                <div class="card text-center border-0 shadow-sm h-100 member-card">
+                    <div class="card-body py-4">
+                        <div class="rounded-circle bg-warning d-inline-flex align-items-center justify-content-center mb-3"
+                             style="width: 80px; height: 80px;">
+                            <i class="bi bi-circle fs-2 text-dark"></i>
+                        </div>
+                        <h5 class="card-title fw-bold">Josh Freese</h5>
+                        <p class="text-muted">Batería</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ═══ CTA Final ═══ -->
+<section class="py-5 bg-warning text-dark text-center">
+    <div class="container">
+        <h2 class="display-6 fw-bold mb-3">¿Listo para el Rock?</h2>
+        <p class="fs-5 mb-4">No te pierdas el tour 2026 por Latinoamérica.</p>
+        <a href="{{ url_for('tour') }}" class="btn btn-dark btn-lg px-5 fw-bold">
+            <i class="bi bi-ticket-perforated-fill"></i> Ver Fechas del Tour
+        </a>
+    </div>
+</section>
+{% endblock %}

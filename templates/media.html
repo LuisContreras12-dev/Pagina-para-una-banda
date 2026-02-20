@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+{% block title %}Fotos y Videos{% endblock %}
+
+{% block content %}
+<!-- ═══ Header ═══ -->
+<section class="page-header text-white text-center d-flex align-items-center justify-content-center"
+         style="background: linear-gradient(135deg, #0c0c0c 0%, #434343 100%); min-height: 40vh;">
+    <div class="container">
+        <h1 class="display-3 fw-bold"><i class="bi bi-camera-reels-fill text-warning"></i> Fotos & Videos</h1>
+        <p class="lead fs-4">Momentos capturados en la historia de Foo Fighters</p>
+    </div>
+</section>
+
+<!-- ═══ Galería de Fotos ═══ -->
+<section class="py-5">
+    <div class="container">
+        <h2 class="display-6 fw-bold section-title mb-4">
+            <i class="bi bi-image text-warning"></i> Galería de Fotos
+        </h2>
+        <div class="row g-4">
+            {% for foto in fotos %}
+            <div class="col-md-6 col-lg-4">
+                <div class="card border-0 shadow overflow-hidden media-card h-100">
+                    <img src="{{ foto.url }}"
+                         class="card-img-top media-img"
+                         alt="{{ foto.titulo }}"
+                         loading="lazy">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">{{ foto.titulo }}</h5>
+                        <p class="card-text text-muted">{{ foto.descripcion }}</p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- ═══ Videos ═══ -->
+<section class="py-5 bg-dark text-white">
+    <div class="container">
+        <h2 class="display-6 fw-bold section-title mb-4">
+            <i class="bi bi-play-circle text-warning"></i> Videos Musicales
+        </h2>
+        <div class="row g-4">
+            {% for video in videos %}
+            <div class="col-md-6">
+                <div class="card bg-secondary bg-opacity-25 border-0 shadow h-100">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="{{ video.url }}"
+                                title="{{ video.titulo }}"
+                                allowfullscreen
+                                loading="lazy"
+                                class="rounded-top"></iframe>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold text-warning">{{ video.titulo }}</h5>
+                        <p class="card-text text-light">{{ video.descripcion }}</p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endblock %}

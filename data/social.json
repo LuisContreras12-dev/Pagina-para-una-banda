@@ -1,0 +1,47 @@
+{
+  "banda": "Foo Fighters",
+  "redes": [
+    {
+      "nombre": "Facebook",
+      "url": "https://www.facebook.com/foofighters",
+      "icono": "bi-facebook",
+      "color": "#1877F2",
+      "seguidores": "24M seguidores"
+    },
+    {
+      "nombre": "Instagram",
+      "url": "https://www.instagram.com/foofighters",
+      "icono": "bi-instagram",
+      "color": "#E4405F",
+      "seguidores": "6.5M seguidores"
+    },
+    {
+      "nombre": "Twitter / X",
+      "url": "https://twitter.com/foofighters",
+      "icono": "bi-twitter-x",
+      "color": "#000000",
+      "seguidores": "8.2M seguidores"
+    },
+    {
+      "nombre": "YouTube",
+      "url": "https://www.youtube.com/foofighters",
+      "icono": "bi-youtube",
+      "color": "#FF0000",
+      "seguidores": "10M suscriptores"
+    },
+    {
+      "nombre": "Spotify",
+      "url": "https://open.spotify.com/artist/7jy3rLJdDQY21OgRLCZ9sD",
+      "icono": "bi-spotify",
+      "color": "#1DB954",
+      "seguidores": "25M oyentes mensuales"
+    },
+    {
+      "nombre": "TikTok",
+      "url": "https://www.tiktok.com/@foofighters",
+      "icono": "bi-tiktok",
+      "color": "#000000",
+      "seguidores": "2.1M seguidores"
+    }
+  ]
+}

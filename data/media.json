@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "tipo": "foto",
+    "titulo": "Foo Fighters en Concierto - Wembley 2008",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Foo_Fighters_-_Rock_am_Ring_2018-5765.jpg",
+    "descripcion": "Foo Fighters durante su legendaria presentación en vivo."
+  },
+  {
+    "id": 2,
+    "tipo": "foto",
+    "titulo": "Dave Grohl en el Escenario",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Dave_Grohl_2022.jpg",
+    "descripcion": "Dave Grohl, líder y vocalista de la banda, dando todo en el escenario."
+  },
+  {
+    "id": 3,
+    "tipo": "foto",
+    "titulo": "La Banda Completa",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Foo_Fighters_-_Rock_am_Ring_2018-5710.jpg",
+    "descripcion": "Todos los miembros de Foo Fighters reunidos en el escenario."
+  },
+  {
+    "id": 4,
+    "tipo": "video",
+    "titulo": "Everlong - Video Oficial",
+    "url": "https://www.youtube.com/embed/eBG7P-K-r1Y",
+    "descripcion": "Video musical oficial de 'Everlong', uno de los mayores éxitos de la banda."
+  },
+  {
+    "id": 5,
+    "tipo": "video",
+    "titulo": "The Pretender - Video Oficial",
+    "url": "https://www.youtube.com/embed/SBjQ9tuuTJQ",
+    "descripcion": "Video musical oficial de 'The Pretender' del álbum Echoes, Silence, Patience & Grace."
+  },
+  {
+    "id": 6,
+    "tipo": "video",
+    "titulo": "Best of You - Video Oficial",
+    "url": "https://www.youtube.com/embed/h_L4Rixya64",
+    "descripcion": "Video musical oficial de 'Best of You' del álbum In Your Honor."
+  },
+  {
+    "id": 7,
+    "tipo": "foto",
+    "titulo": "Foo Fighters - Festival Rock am Ring",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Foo_Fighters_-_Rock_am_Ring_2018-5554.jpg",
+    "descripcion": "La banda en acción durante el festival Rock am Ring 2018."
+  },
+  {
+    "id": 8,
+    "tipo": "video",
+    "titulo": "Learn to Fly - Video Oficial",
+    "url": "https://www.youtube.com/embed/1VQ_3sBZEm0",
+    "descripcion": "El icónico y divertido video musical de 'Learn to Fly'."
+  }
+]

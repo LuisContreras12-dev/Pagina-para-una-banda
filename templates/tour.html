@@ -1,0 +1,84 @@
+{% extends 'base.html' %}
+{% block title %}Tour 2026{% endblock %}
+
+{% block content %}
+<!-- ═══ Header del Tour ═══ -->
+<section class="page-header text-white text-center d-flex align-items-center justify-content-center"
+         style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); min-height: 40vh;">
+    <div class="container">
+        <h1 class="display-3 fw-bold"><i class="bi bi-calendar-event-fill text-warning"></i> Tour 2026</h1>
+        <p class="lead fs-4">Foo Fighters recorre Latinoamérica</p>
+    </div>
+</section>
+
+<!-- ═══ Tabla de Fechas ═══ -->
+<section class="py-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="table-responsive">
+                    <table class="table table-hover align-middle shadow-sm rounded overflow-hidden">
+                        <thead class="table-dark">
+                            <tr>
+                                <th scope="col"><i class="bi bi-calendar3"></i> Fecha</th>
+                                <th scope="col"><i class="bi bi-geo-alt"></i> Ciudad</th>
+                                <th scope="col"><i class="bi bi-building"></i> Venue</th>
+                                <th scope="col" class="text-center">Estado</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for fecha in fechas %}
+                            <tr>
+                                <td class="fw-semibold">{{ fecha.fecha }}</td>
+                                <td>{{ fecha.ciudad }}</td>
+                                <td>{{ fecha.venue }}</td>
+                                <td class="text-center">
+                                    {% if fecha.disponible %}
+                                        <span class="badge bg-success px-3 py-2">
+                                            <i class="bi bi-check-circle"></i> Disponible
+                                        </span>
+                                    {% else %}
+                                        <span class="badge bg-danger px-3 py-2">
+                                            <i class="bi bi-x-circle"></i> Agotado
+                                        </span>
+                                    {% endif %}
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="alert alert-warning mt-4 d-flex align-items-center" role="alert">
+                    <i class="bi bi-info-circle-fill me-3 fs-4"></i>
+                    <div>
+                        <strong>¡Apresúrate!</strong> Las entradas para algunas fechas se están agotando rápidamente.
+                        Visita las redes oficiales de Foo Fighters para más información sobre la compra de boletos.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ═══ Mapa de Ciudades ═══ -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="display-6 fw-bold section-title text-center mb-5">Ciudades del Tour</h2>
+        <div class="row g-4 justify-content-center">
+            {% for fecha in fechas %}
+            <div class="col-md-6 col-lg-3">
+                <div class="card border-0 shadow-sm text-center h-100 tour-card">
+                    <div class="card-body">
+                        <i class="bi bi-geo-alt-fill fs-1 text-warning mb-2"></i>
+                        <h5 class="fw-bold">{{ fecha.ciudad.split(',')[0] }}</h5>
+                        <p class="text-muted small mb-1">{{ fecha.venue }}</p>
+                        <p class="fw-semibold text-primary mb-0">{{ fecha.fecha }}</p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endblock %}

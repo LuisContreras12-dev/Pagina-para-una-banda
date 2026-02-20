@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "titulo": "Foo Fighters",
+    "anio": 1995,
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/5/5d/Foo_Fighters_%E2%80%93_Foo_Fighters.jpg",
+    "descripcion": "Álbum debut homónimo. Dave Grohl grabó casi todos los instrumentos él mismo. Incluye éxitos como 'This Is a Call' y 'Big Me'.",
+    "canciones": ["This Is a Call", "I'll Stick Around", "Big Me", "Alone + Easy Target", "Good Grief"]
+  },
+  {
+    "id": 2,
+    "titulo": "The Colour and the Shape",
+    "anio": 1997,
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/d/d0/FooFighters-TheColourAndTheShape.jpg",
+    "descripcion": "Segundo álbum de estudio que consolidó a la banda. Contiene algunos de sus mayores éxitos como 'Everlong', 'My Hero' y 'Monkey Wrench'.",
+    "canciones": ["Doll", "Monkey Wrench", "Hey, Johnny Park!", "My Poor Brain", "Everlong", "My Hero"]
+  },
+  {
+    "id": 3,
+    "titulo": "There Is Nothing Left to Lose",
+    "anio": 1999,
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/9/9b/Foo_Fighters_-_There_Is_Nothing_Left_to_Lose.jpg",
+    "descripcion": "Tercer álbum grabado en el estudio casero de Dave Grohl. Ganó el Grammy al Mejor Álbum de Rock. Incluye 'Learn to Fly' y 'Breakout'.",
+    "canciones": ["Stacked Actors", "Breakout", "Learn to Fly", "Gimme Stitches", "Generator", "Next Year"]
+  },
+  {
+    "id": 4,
+    "titulo": "One by One",
+    "anio": 2002,
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/b/be/Foo_Fighters_-_One_by_One.jpg",
+    "descripcion": "Cuarto álbum con un sonido más pesado. Incluye el exitoso sencillo 'All My Life' y 'Times Like These'.",
+    "canciones": ["All My Life", "Low", "Have It All", "Times Like These", "Disenchanted Lullaby"]
+  },
+  {
+    "id": 5,
+    "titulo": "In Your Honor",
+    "anio": 2005,
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/b/b2/In_Your_Honor.jpg",
+    "descripcion": "Álbum doble: un disco de rock pesado y otro acústico. Incluye 'Best of You', 'DOA' y 'Resolve'.",
+    "canciones": ["In Your Honor", "No Way Back", "Best of You", "DOA", "Resolve", "Friend of a Friend"]
+  },
+  {
+    "id": 6,
+    "titulo": "Echoes, Silence, Patience & Grace",
+    "anio": 2007,
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/2/20/Echoes%2C_Silence%2C_Patience_%26_Grace.jpg",
+    "descripcion": "Sexto álbum que mezcla rock intenso con baladas acústicas. 'The Pretender' se convirtió en un himno del rock moderno.",
+    "canciones": ["The Pretender", "Let It Die", "Long Road to Ruin", "Come Alive", "Stranger Things Have Happened"]
+  },
+  {
+    "id": 7,
+    "titulo": "Wasting Light",
+    "anio": 2011,
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/0/09/Foo_Fighters_Wasting_Light_Album_Cover.jpg",
+    "descripcion": "Grabado completamente en cinta analógica en el garaje de Dave Grohl. Considerado uno de sus mejores álbumes. Incluye 'Rope' y 'Walk'.",
+    "canciones": ["Bridge Burning", "Rope", "Dear Rosemary", "White Limo", "Arlandria", "These Days", "Walk"]
+  },
+  {
+    "id": 8,
+    "titulo": "Sonic Highways",
+    "anio": 2014,
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/6/67/Foo_Fighters_8LP_Sonic_Highways.jpg",
+    "descripcion": "Cada canción fue grabada en una ciudad diferente de EE.UU., acompañada de una serie documental de HBO.",
+    "canciones": ["Something from Nothing", "The Feast and the Famine", "Congregation", "What Did I Do?/God as My Witness", "Outside"]
+  },
+  {
+    "id": 9,
+    "titulo": "Concrete and Gold",
+    "anio": 2017,
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/2/2d/FooFighters_ConcreteAndGold.jpg",
+    "descripcion": "Noveno álbum con producción de Greg Kurstin. Mezcla pop melódico con rock pesado. Incluye 'Run' y 'The Sky Is a Neighborhood'.",
+    "canciones": ["T-Shirt", "Run", "Make It Right", "The Sky Is a Neighborhood", "La Dee Da", "Concrete and Gold"]
+  },
+  {
+    "id": 10,
+    "titulo": "Medicine at Midnight",
+    "anio": 2021,
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/5/53/Foo_Fighters_-_Medicine_at_Midnight.png",
+    "descripcion": "Décimo álbum con un enfoque más bailable y festivo. Incluye 'Shame Shame', 'Waiting on a War' y 'Making a Fire'.",
+    "canciones": ["Making a Fire", "Shame Shame", "Cloudspotter", "Waiting on a War", "Medicine at Midnight", "Love Dies Young"]
+  }
+]

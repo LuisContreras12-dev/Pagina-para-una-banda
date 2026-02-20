@@ -1,0 +1,248 @@
+/* ═══════════════════════════════════════════════════
+   Foo Fighters – Estilos personalizados
+   ═══════════════════════════════════════════════════ */
+
+/* ── Variables ────────────────────────────────────── */
+:root {
+    --ff-primary: #ffc107;
+    --ff-dark: #1a1a2e;
+    --ff-text: #333;
+}
+
+/* ── Tipografía ───────────────────────────────────── */
+body {
+    font-family: 'Inter', sans-serif;
+    color: var(--ff-text);
+}
+
+.hero-title,
+.brand-logo,
+.section-title {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+}
+
+/* ── Navbar ────────────────────────────────────────── */
+.navbar {
+    backdrop-filter: blur(10px);
+    transition: background-color 0.3s ease;
+}
+
+.brand-logo {
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+}
+
+.nav-link {
+    font-weight: 500;
+    transition: color 0.3s ease, transform 0.2s ease;
+    padding: 0.5rem 1rem !important;
+}
+
+.nav-link:hover {
+    color: var(--ff-primary) !important;
+    transform: translateY(-1px);
+}
+
+.nav-link.active {
+    color: var(--ff-primary) !important;
+    border-bottom: 2px solid var(--ff-primary);
+}
+
+/* ── Contenido principal ──────────────────────────── */
+.main-content {
+    padding-top: 56px; /* Compensa el navbar fijo */
+}
+
+/* ── Hero Section ─────────────────────────────────── */
+.hero-section {
+    position: relative;
+}
+
+.hero-title {
+    font-size: 5rem;
+    text-shadow: 2px 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 3rem;
+    }
+}
+
+/* ── Section Titles ───────────────────────────────── */
+.section-title {
+    position: relative;
+    display: inline-block;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 60px;
+    height: 4px;
+    background-color: var(--ff-primary);
+    border-radius: 2px;
+}
+
+.text-center .section-title::after {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* ── Cards genéricos ──────────────────────────────── */
+.member-card,
+.tour-card,
+.album-card,
+.media-card,
+.social-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.member-card:hover,
+.tour-card:hover,
+.album-card:hover,
+.media-card:hover,
+.social-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* ── Album Cards ──────────────────────────────────── */
+.album-img {
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.album-card:hover .album-img {
+    transform: scale(1.05);
+}
+
+/* ── Media Cards ──────────────────────────────────── */
+.media-img {
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.media-card:hover .media-img {
+    transform: scale(1.05);
+}
+
+/* ── Social Cards ─────────────────────────────────── */
+.social-card {
+    border-top: 4px solid transparent;
+}
+
+.social-card:hover {
+    transform: translateY(-10px);
+}
+
+/* ── Tour Table ───────────────────────────────────── */
+.table {
+    border-radius: 12px;
+}
+
+.table tbody tr {
+    transition: background-color 0.2s ease;
+}
+
+.table tbody tr:hover {
+    background-color: rgba(255, 193, 7, 0.08);
+}
+
+/* ── Badges ───────────────────────────────────────── */
+.badge {
+    border-radius: 6px;
+}
+
+/* ── Page Headers ─────────────────────────────────── */
+.page-header {
+    margin-top: -56px;
+    padding-top: 56px;
+}
+
+/* ── Botones ──────────────────────────────────────── */
+.btn-warning {
+    color: #1a1a2e;
+    font-weight: 600;
+}
+
+.btn-warning:hover {
+    background-color: #e5ac00;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(255, 193, 7, 0.4);
+}
+
+.btn {
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+/* ── Footer ───────────────────────────────────────── */
+footer a {
+    transition: color 0.3s ease, transform 0.2s ease;
+    display: inline-block;
+}
+
+footer a:hover {
+    color: var(--ff-primary) !important;
+    transform: translateY(-3px);
+}
+
+/* ── Scrollbar personalizado ──────────────────────── */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1a1a2e;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--ff-primary);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #e5ac00;
+}
+
+/* ── Animaciones suaves al aparecer ───────────────── */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card {
+    animation: fadeInUp 0.6s ease forwards;
+}
+
+.row .col-md-6:nth-child(2) .card,
+.row .col-lg-4:nth-child(2) .card,
+.row .col-lg-3:nth-child(2) .card {
+    animation-delay: 0.1s;
+}
+
+.row .col-md-6:nth-child(3) .card,
+.row .col-lg-4:nth-child(3) .card,
+.row .col-lg-3:nth-child(3) .card {
+    animation-delay: 0.2s;
+}
+
+.row .col-md-6:nth-child(4) .card,
+.row .col-lg-4:nth-child(4) .card,
+.row .col-lg-3:nth-child(4) .card {
+    animation-delay: 0.3s;
+}
