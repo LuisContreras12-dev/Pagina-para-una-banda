@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}Discografía{% endblock %}
+
+{% block content %}
+<h1 class="mb-4"><i class="bi bi-disc"></i> Discografía</h1>
+
+<div class="row g-4">
+    {% for album in albumes %}
+    <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+            <img src="{{ album.imagen }}" class="card-img-top" alt="{{ album.titulo }}">
+            <div class="card-body">
+                <h5 class="card-title">{{ album.titulo }}</h5>
+                <p class="card-text text-muted"><small>{{ album.anio }}</small></p>
+                <p class="card-text">{{ album.descripcion }}</p>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
